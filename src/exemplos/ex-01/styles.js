@@ -10,6 +10,7 @@ const styles = StyleSheet.create
         flex: 1,
         alignItems: 'center',
         // justifyContent: 'center',
+        borderRadius: 20,
     },
 
     titulo:
@@ -25,6 +26,7 @@ const styles = StyleSheet.create
         height: '80%',
         textAlign: 'center',
         textAlignVertical: 'center',
+        
     },
 
     texto:
