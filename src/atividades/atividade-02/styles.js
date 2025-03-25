@@ -5,15 +5,15 @@ const styles = StyleSheet.create
 ({
     container: 
     {
-        backgroundColor: "#fff",
-        alignItems: 'center',
-        borderRadius: 20,
-        borderWidth: 2,
-        borderColor: '#000',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        marginBottom: 20
+        width: "100%",
+
+    },
+
+    titulo_principal:
+    {
+        fontSize: RFPercentage(5),
+        textAlign: 'center',
+        marginBottom: 10
     },
 
     titulo:
@@ -21,8 +21,6 @@ const styles = StyleSheet.create
         fontSize: RFPercentage(2),
         color: '#000',
         fontWeight: 'bold',
-
-        width: '100%',
         height: '20%',
         textAlign: 'center',
         textAlignVertical: 'center',
@@ -37,7 +35,7 @@ const styles = StyleSheet.create
 
     imagem:
     {
-        // height: RFPercentage(10),
+        height: RFPercentage(10),
        width: RFPercentage(15),
        height: RFPercentage(15),
        resizeMode: 'contain'

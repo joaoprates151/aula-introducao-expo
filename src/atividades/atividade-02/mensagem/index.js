@@ -7,11 +7,7 @@ function Mensagem(props)
 {
     return(
         <View style={styles.container}>
-            <div>
-            <Text style= {styles.titulo}>{props.titulo}</Text>
-            <Text style={styles.texto}>{props.subtitulo}</Text>
-            <Text style={styles.texto}>{props.preco}</Text>
-            </div>
+            <Text style= {styles.titulo}>{props.titulo} | {props.subtitulo} | {props.preco}</Text>
             <Image style={styles.imagem} source={props.camisa}></Image>
         </View>
     )
