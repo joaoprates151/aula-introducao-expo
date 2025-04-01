@@ -17,10 +17,10 @@ function Atividade02()
         <>
             <View style={styles.container}>
                 <Text style={styles.titulo_principal}> Atividade 02 </Text>
-                <Mensagem titulo="Camisa Branca" subtitulo="Camisa Branca " preco="R$39,90" camisa = {camisabranca}/>
-                <Mensagem titulo="Camisa Preta" subtitulo="Camisa Preta " preco="R$39,90" camisa = {camisapreta}/>
-                <Mensagem titulo="Camisa Azul" subtitulo="Camisa Azul " preco="R$39,90" camisa = {camisaazul}/>
-                <Mensagem titulo="Camisa Vermelha" subtitulo="Camisa Vermelha " preco="R$39,90" camisa = {camisavermelha}/>
+                <Mensagem titulo="Camiseta Branca" subtitulo="Camiseta Branca " preco="R$39,90" camisa = {camisabranca}/>
+                <Mensagem titulo="Camiseta Preta" subtitulo="Camiseta Preta " preco="R$40,90" camisa = {camisapreta}/>
+                <Mensagem titulo="Camiseta Azul" subtitulo="Camiseta Azul " preco="R$29,90" camisa = {camisaazul}/>
+                <Mensagem titulo="Camiseta Vermelha" subtitulo="Camiseta Vermelha " preco="R$19,90" camisa = {camisavermelha}/>
             </View>
         </>
         

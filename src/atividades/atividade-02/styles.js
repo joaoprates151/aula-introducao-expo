@@ -13,7 +13,11 @@ const styles = StyleSheet.create
     {
         fontSize: RFPercentage(5),
         textAlign: 'center',
-        marginBottom: 10
+        marginBottom: 10,
+        borderRadius: 10,
+        borderWidth: 5,
+        backgroundColor: '#a93226',
+        color: '#fff'
     },
 
     titulo:
