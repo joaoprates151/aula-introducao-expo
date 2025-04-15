@@ -1,17 +1,29 @@
-import {View, Text, TextInput} from 'react-native'
+import {View, Text, TextInput, TouchableOpacity} from 'react-native'
 import styles from './styles'
 import {useState} from 'react'
 
-function Exemplo4()
+function Atividade04()
 {
-    const [txtInserido, setTxtInserido] = useState("")
+    const [nome, setNome] = useState("")
+    const [sobrenome, setSobrenome] = useState("")
+    const [nomeC, setNomeC] = useState("")
     return(
         <View style={styles.container}>
-            <Text style= {styles.titulo}>Exemplo4</Text>
-            <Text style={styles.texto}>Aula de React-Native com Expo</Text>
-            <TextInput style= {styles.input}/>
+            <Text style= {styles.titulo}>Atividade 04</Text>
+
+            <Text style= {styles.h1}>Nome</Text>
+            <TextInput style= {styles.input} onChangeText={ (valor) => setNome(valor)}/>
+
+            <Text style= {styles.h1}>Sobrenome</Text>
+            <TextInput style= {styles.input} onChangeText={ (valor) => setSobrenome(valor)}/>
+          
+            <Text style= {styles.h1}>Nome completo: {nomeC}</Text>
+            <TouchableOpacity style= {styles.botao_contar} onPress={ () => setNomeC(nome + " " + sobrenome)}>
+                <Text style= {styles.texto}>Exibir texto </Text> 
+            </TouchableOpacity>
+
         </View>
     )
 }
 
-export default Exemplo4
+export default Atividade04

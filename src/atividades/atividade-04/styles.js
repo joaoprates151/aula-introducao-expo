@@ -16,8 +16,9 @@ const styles = StyleSheet.create
     titulo:
     {
         fontSize: RFPercentage(3),
-        color: '#054f77',
         fontWeight: 'bold',
+        borderWidth: 2,
+        borderColor: 'deepskyblue',
         marginTop: 10,
         marginBottom: 10,
         padding: 8,
@@ -30,14 +31,8 @@ const styles = StyleSheet.create
     texto:
     {
         fontSize: RFPercentage(2.2),
-        color: '#fff',
+        color: 'deepskyblue',
     },
-
-    h1: 
-    {
-        fontSize: RFPercentage(2.2),
-    },
-
     input:
     {
         borderWidth: RFPercentage(0.1),
@@ -48,8 +43,7 @@ const styles = StyleSheet.create
     },
     botao_contar:
     {
-        marginTop: RFPercentage(2), 
-        backgroundColor: '#054f77',
+        backgroundColor: 'red',
         width: '50%',
         height: RFPercentage(4),
         borderRadius: 10,
