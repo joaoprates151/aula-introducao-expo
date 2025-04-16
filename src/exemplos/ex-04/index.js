@@ -21,7 +21,6 @@ function Atividade04()
             <TouchableOpacity style= {styles.botao_contar} onPress={ () => setNomeC(nome + " " + sobrenome)}>
                 <Text style= {styles.texto}>Exibir texto </Text> 
             </TouchableOpacity>
-
         </View>
     )
 }
