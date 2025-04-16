@@ -31,20 +31,48 @@ const styles = StyleSheet.create
     {
         fontSize: RFPercentage(2.2),
         color: '#fff',
+        
     },
 
     h1: 
     {
         fontSize: RFPercentage(2.2),
+        textAlign: 'left',
+        margin: RFPercentage(1.5),
+        marginLeft: RFPercentage(6),
+        width: '100%',
+        fontWeight: 'bold'
+    },
+
+    h2: 
+    {
+        fontSize: RFPercentage(2.2),
+        marginTop: RFPercentage(2.2),
+        fontWeight: 'bold'
+    },
+
+    quadrado:
+    {
+        backgroundColor: 'red',
+        height: '40%',
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: "8%",
+        backgroundColor: '#d2b48c',
     },
 
     input:
     {
         borderWidth: RFPercentage(0.1),
-        width: '100%',
+        width: '90%',
         fontSize: RFPercentage(2),
-        margin: RFPercentage(2),
-        borderRadius: RFPercentage(2)
+        backgroundColor: '#fffaf0',
+        borderRadius: RFPercentage(2),
+        fontWeight: 'bold',
+        padding: "7"
+        
     },
     botao_contar:
     {
