@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants'
 
+// Sobre
+import Sobre from './src/sobre';
+
 // Exemplos
 import Exemplos from './src/exemplos';
 import Exemplo1 from './src/exemplos/ex-01';
@@ -14,18 +17,20 @@ import Exemplo8 from './src/exemplos/ex-08';
 
 
 // Atividades
+import Atividades from './src/atividades';
 import Atividade1 from './src/atividades/atividade-01';
 import Atividade02 from './src/atividades/atividade-02';
 import Atividade3 from './src/atividades/atividade-03';
 import Atividade04 from './src/exemplos/ex-04';
 import Atividade5 from './src/atividades/atividade-05';
 import Atividade6 from './src/atividades/atividade-06';
+import Container from './src/rotas/container_navegacao';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplos />
+      <Container />
       <StatusBar style="light" />
     </View>
   );
